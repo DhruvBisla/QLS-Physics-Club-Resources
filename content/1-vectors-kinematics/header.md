@@ -1,6 +1,6 @@
 ---
 title: Vectors and Kinematics
-author: Dhruv Bisla
+author: Quarry Lane Physics Club
 date: \today
 header-includes:
   - \usepackage{siunitx, caption, graphicx, float, amsmath, amssymb, pifont, microtype}

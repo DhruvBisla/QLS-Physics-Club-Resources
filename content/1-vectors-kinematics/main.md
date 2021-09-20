@@ -48,7 +48,7 @@ $$\theta = \arctan(\frac{\vcompy{v}}{\vcompx{v}})$$
 
 Graphically, vector addition is the vector from the origin to the tip of the last addend vector, where each of the addend vectors' tails are placed at the head of the previous, beginning from the origin.
 
-When adding vectors, the respective components of each of the addend vectors are summed to form the components of the vector sum, known as the resultant vector.
+When adding vectors, the components of each of the addend vectors are summed to form the components of the vector sum, known as the resultant vector.
 
 Example:
 
@@ -68,7 +68,7 @@ Scalar multiplication of a vector changes merely the magnitude of that vector fo
 
 # Kinematics
 
-Kinematics is all about the motion of projectiles. This section will specifically cover general quantities and the motion of projectiles (to be represented as particles) with several key assumptions: they are uniformly accelerated, i.e., acceleration is constant, and all motion is purely translational.
+Kinematics is all about the motion of projectiles. This section will specifically cover general quantities and the motion of projectiles (to be represented as particles) with several key assumptions: they are uniformly accelerated (acceleration is constant) and all motion is purely translational.
 
 ## Displacement
 
@@ -114,7 +114,7 @@ $$\vec{v} = \lim_{\D{t}\to 0}\frac{\D{\vec{x}}}{\D{t}}$$
 
 $$\avg{\vec{a}} = \frac{\D{\vec{v}}}{\D{t}}$$
 
-Since the velocity, $\D{\vec{v}}$, is a vector, average acceleration may be interpreted as the scalar product of the vector, $\D{\vec{v}}$ and the scalar, $\frac{1}{\D{t}}$. This renders the average velocity, $\avg{\vec{a}}$, a vector.
+Since velocity, $\D{\vec{v}}$, is a vector, average acceleration may be interpreted as the scalar product of the vector, $\D{\vec{v}}$ and the scalar, $\frac{1}{\D{t}}$. This renders the average velocity, $\avg{\vec{a}}$, a vector.
 
 ### Instantaneous Acceleration
 
@@ -142,7 +142,7 @@ Putting the last two equations together by substituting the first in the second 
 
 $$\vec{x_f} = \vec{x_0} + \vec{v_0}t + \frac{1}{2}\vec{a}t^2$$
 
-In this form, $t$, $\vec{x_f}$, and $\vec{a}$ are related.
+In this form, $t$, $\vec{x_0}, $\vec{x_f}$, and $\vec{a}$ are related.
 
 All the equations listed above depend on time. For convenience, it is possible to derive an equation relating these quantities without knowledge of the time elapsed. This time, to find such an equation, a manipulation of the second equation will be substituted into the first equation.
 
