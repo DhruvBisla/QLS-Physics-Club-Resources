@@ -142,7 +142,7 @@ Putting the last two equations together by substituting the first in the second 
 
 $$\vec{x_f} = \vec{x_0} + \vec{v_0}t + \frac{1}{2}\vec{a}t^2$$
 
-In this form, $t$, $\vec{x_0}, $\vec{x_f}$, and $\vec{a}$ are related.
+In this form, $t$, $\vec{x_0}$, $\vec{x_f}$, and $\vec{a}$ are related.
 
 All the equations listed above depend on time. For convenience, it is possible to derive an equation relating these quantities without knowledge of the time elapsed. This time, to find such an equation, a manipulation of the second equation will be substituted into the first equation.
 
