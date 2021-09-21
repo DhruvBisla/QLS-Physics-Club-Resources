@@ -76,7 +76,7 @@ Kinematics is all about the motion of projectiles. This section will specificall
 
 **Units:** d $\rightarrow$ $\m{1}$
 
-Displacement, by definition, is a vector, with magnitude equal to the distance from the final position, $\vec{x_f}$, to the initial, $x_0$, pointing in the direction of the vector going from $\vec{x_0}$ to $\vec{x_f}$. In terms of vector operations, the displacement, $\D{\vec{x}}$, is equal to the difference of the position vector representing $\vec{x_f}$ and that representing $\vec{x_0}$.
+Displacement, by definition, is a vector, with magnitude equal to the distance from the final position, $\vec{x_f}$, to the initial, $\vec{x_0}$, pointing in the direction of the vector going from $\vec{x_0}$ to $\vec{x_f}$. In terms of vector operations, the displacement, $\D{\vec{x}}$, is equal to the difference of the position vector representing $\vec{x_f}$ and that representing $\vec{x_0}$.
 
 ## Velocity
 
