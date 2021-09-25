@@ -33,7 +33,7 @@ The latter notation is used more frequently, but it is good to know both.
 Think of a right triangle. What the polar representation does is specify the length of the hypotenuse and the angle between the hypotenuse and one of the legs. Then, when converting to the component form, we are simply trying to find the lengths of the legs (the components), which can be done with some trigonometry:
 
 $$\vcompx{v} = \mag{v}\cos\theta$$
-$$\vcompx{v} = \mag{v}\sin\theta$$
+$$\vcompy{v} = \mag{v}\sin\theta$$
 
 ### Component $\rightarrow$ Polar
 
