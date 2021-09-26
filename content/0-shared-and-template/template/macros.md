@@ -1,1 +1,0 @@
-/Users/dhruv/Projects/QLS-Physics-Club-Resources/content/0-shared-and-template/macros.md
