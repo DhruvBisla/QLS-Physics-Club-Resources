@@ -12,9 +12,17 @@ jobs:
       - name: Install Pandoc
         run: make install-ubuntu
       - name: Build with Pandoc
-        run: make build
+        run: make build-all
       - name: Upload PDF
         uses: actions/upload-artifact@v2
         with:
-          name: Notes
-          path: ./notes.pdf
+          name: Build
+          path: ./build
+      - name: Push PDF
+        run: |
+          git config --global user.name 'DhruvBisla'
+          git config --global user.email 'DhruvBisla@users.noreply.github.com'
+          rm .gitignore
+          git add .
+          git commit -m "[Github Actions] Upload latest build"
+          git push
