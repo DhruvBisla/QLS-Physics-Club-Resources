@@ -1,15 +1,17 @@
-.PHONY: default, build, dev, create-section, install-ubuntu
+.PHONY: build build-all create-section install-ubuntu
 
-default:
-	pandoc
+NAME ?= ${name}
 
 build:
-	pandoc content/*.md -o notes.pdf
+	pandoc content/$(NAME)/*.md -o build/$(NAME).pdf
 
-dev: build
-	while true; do watch -d -t -g ls -lR content/ && pandoc content/*.md -o notes.pdf; sleep 2; done
+build-all:
+	cd content && ls -d -1 */ | tail -n +2 | sed 's/.$$//' > ../list
+	while IFS= read -r line; do pandoc content/"$$line"/*.md -o build/"$$line.pdf"; done < list
+	rm list
 
 create-section:
+	cp -R content/0-shared-and-template/template content/$(NAME)
 
 install-ubuntu:
 	sudo apt-get install -y \
