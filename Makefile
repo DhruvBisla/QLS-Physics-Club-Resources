@@ -11,6 +11,7 @@ build:
 	pandoc content/$(NAME)/*.md -o build/$(NAME).pdf
 
 build-all:
+	mkdir build | true
 	cd content && ls -d -1 */ | tail -n +2 | sed 's/.$$//' > ../list
 	while IFS= read -r line; do cp content/0-shared-and-template/macros.md content/"$$line"/macros.md; done < list
 	while IFS= read -r line; do pandoc content/"$$line"/*.md -o build/"$$line.pdf"; done < list
