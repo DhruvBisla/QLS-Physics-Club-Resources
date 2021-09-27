@@ -18,7 +18,7 @@ jobs:
         with:
           name: Build
           path: ./build
-      - name: Push PDF
+      - name: Commit and Push PDF
         run: |
           git config --global user.name 'DhruvBisla'
           git config --global user.email 'DhruvBisla@users.noreply.github.com'
