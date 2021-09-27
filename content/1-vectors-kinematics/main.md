@@ -74,13 +74,13 @@ Kinematics is all about the motion of projectiles. This section will specificall
 
 **Definition:** The net distance in the position of an object from some instance, $t_1$, to another, $t_2$.
 
-**Units:** d $\rightarrow$ $\m{1}$
+**Units:** d $\rightarrow$ $\SI{1}{\m}$
 
 Displacement, by definition, is a vector, with magnitude equal to the distance from the final position, $\vec{x_f}$, to the initial, $\vec{x_0}$, pointing in the direction of the vector going from $\vec{x_0}$ to $\vec{x_f}$. In terms of vector operations, the displacement, $\D{\vec{x}}$, is equal to the difference of the position vector representing $\vec{x_f}$ and that representing $\vec{x_0}$.
 
 ## Velocity
 
-**Units:** d/t $\rightarrow$ $\mps{1}$
+**Units:** d/t $\rightarrow$ $\SI{1}{\mps}$
 
 ### Average Velocity
 
@@ -104,7 +104,7 @@ $$\vec{v} = \lim_{\D{t}\to 0}\frac{\D{\vec{x}}}{\D{t}}$$
 
 ## Acceleration
 
-**Units:** d/t² $\rightarrow$ $\mpss{1}$
+**Units:** d/t² $\rightarrow$ $\SI{1}{\mpss}$
 
 ### Average Acceleration
 
@@ -181,3 +181,39 @@ In two dimensions, the equations listed above apply for both components of any p
 $$\vec{v_f} = \ihat(\vcompx{v_0} + \vcompx{a}t) + \jhat(\vcompy{v_0} + \vcompy{a}t) = (\ihat\vcompx{v_0} + \jhat\vcompy{v_0}) + (\ihat\vcompx{a} + \jhat\vcompy{a})t$$
 
 Intuitively, the last equality makes sense because it is the sum of the components of $\vec{v_0}$ added to the sum of the components of $\vec{a}$, multiplied by $t$.
+
+# Problems
+
+1. [F=ma] An object moves in two dimensions according to
+$$\vec{r} = (4.0t^2 - 9.0)\ihat + (2.0t -5.0)\jhat$$
+where $\mag{r}$ is in meters and $t$ in seconds. When does the object cross the x-axis?
+    a. \SI{0.0}{\second}
+    b. \SI{0.4}{\second}
+    c. \SI{0.6}{\second}
+    d. \SI{1.5}{\second}
+    e. \SI{2.5}{\second}
+
+2. [F=ma] The coordinate of an object is given as a function of time by $x = 8t - 3t^2$, where $x$ is in meters and $t$ is in seconds. Its average velocity over the interval from $t = \SI{1}{\second}$ to $t = \SI{2}{\second}$ is
+    a. \SI{-2}{\mps}
+    b. \SI{-1}{\mps}
+    c. \SI{-0.5}{\mps}
+    d. \SI{0.5}{\mps}
+    e. \SI{1}{\mps}
+
+3. [F=ma] An object is released from rest and falls a distance $h$ during the first second of time. How far will it fall during the next second of time?
+    a. $h$
+    b. $2h$
+    c. $3h$
+    d. $4h$
+    e. $h^2$
+
+4. [F=ma] . A cannonball is launched with initial velocity of magnitude $\mag{v_0}$ over a horizontal surface. At what minimum angle $\theta_{\text{min}}$ above the horizontal should the cannonball be launched so that it rises to a height $H$ which is larger than the horizontal distance $R$ that it will travel when it returns to the ground?
+    a. $\theta_{\text{min}} = \SI{76}{\degree}$
+    b. $\theta_{\text{min}} = \SI{72}{\degree}$
+    c. $\theta_{\text{min}} = \SI{60}{\degree}$
+    d. $\theta_{\text{min}} = \SI{45}{\degree}$
+    e. There is no such angle, as $R > H$ for all range problems.
+
+5. [Halliday and Resnick] A rifle with a muzzle velocity of $\SI{1500}{\foot\per\second}$ shoots a bullet at a target $\SI{150}{\foot}$ away. How high above the target must the rifle be aimed so that the bullet will hit the target?
+
+6. [Halliday and Resnick] A ball rolls off the top of a stairway with a horizontal velocity of magnitude $\SI{5.0}{\foot\per\second}$. The steps are $\SI{8.0}{\inch}$ high and $\SI{8.0}{\inch}$ wide. Which step will the ball hit first?
