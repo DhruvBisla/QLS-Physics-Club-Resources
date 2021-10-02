@@ -1,4 +1,5 @@
 .PHONY: build build-all create-section install-ubuntu
+.SILENT: build build-all create-section install-ubuntu
 
 NAME ?= ${name}
 

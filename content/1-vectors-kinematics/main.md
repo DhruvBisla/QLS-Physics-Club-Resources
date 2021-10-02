@@ -14,7 +14,7 @@ The polar form of a vector uses two parameters specifying magnitude and directio
 
 When using the polar representation for a two-dimensional vector, $\vec{v}$, $\mag{v}$ and $\theta$ are the _magnitude_ and _angle_ (in standard position).
 
-### Components
+### Component
 
 The component form of a (2D) vector uses the horizontal and vertical components to define a vector. There are two different ways of expressing this:
 
@@ -28,14 +28,14 @@ The second way is, in effect, a more verbose way of expressing the same thing. $
 
 The latter notation is used more frequently, but it is good to know both.
 
-### Polar $\rightarrow$ Component
+### Polar to Component
 
 Think of a right triangle. What the polar representation does is specify the length of the hypotenuse and the angle between the hypotenuse and one of the legs. Then, when converting to the component form, we are simply trying to find the lengths of the legs (the components), which can be done with some trigonometry:
 
 $$\vcompx{v} = \mag{v}\cos\theta$$
 $$\vcompy{v} = \mag{v}\sin\theta$$
 
-### Component $\rightarrow$ Polar
+### Component to Polar
 
 As this is just the reverse, when converting from component form to polar form, we must find the length of the hypotenuse (the magnitude) and the angle formed by the hypotenuse and one of the legs (the angle). Again, some trigonometry and the pythagorean theorem gives:
 
@@ -58,7 +58,7 @@ Assuming each vector is two-dimensional, the sum may resolved into components:
 
 $$\vec{s} = (\vcompx{u} + \vcompx{v} + \vcompx{w})\ihat + (\vcompy{u} + \vcompy{v} + \vcompy{w})\jhat$$
 
-## Subtraction
+### Subtraction
 
 The difference of two vectors is a sum, where the vector being subtracted's (the subtrahend) additive inverse is added to the vector being subtracted from (the minuend).
 
@@ -207,7 +207,7 @@ where $\mag{r}$ is in meters and $t$ in seconds. When does the object cross the 
     d. $4h$
     e. $h^2$
 
-4. [F=ma] . A cannonball is launched with initial velocity of magnitude $\mag{v_0}$ over a horizontal surface. At what minimum angle $\theta_{\text{min}}$ above the horizontal should the cannonball be launched so that it rises to a height $H$ which is larger than the horizontal distance $R$ that it will travel when it returns to the ground?
+4. [F=ma] A cannonball is launched with initial velocity of magnitude $\mag{v_0}$ over a horizontal surface. At what minimum angle $\theta_{\text{min}}$ above the horizontal should the cannonball be launched so that it rises to a height $H$ which is larger than the horizontal distance $R$ that it will travel when it returns to the ground?
     a. $\theta_{\text{min}} = \SI{76}{\degree}$
     b. $\theta_{\text{min}} = \SI{72}{\degree}$
     c. $\theta_{\text{min}} = \SI{60}{\degree}$
