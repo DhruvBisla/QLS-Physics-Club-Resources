@@ -20,8 +20,8 @@ jobs:
           path: ./build
       - name: Commit and Push PDF
         run: |
-          git config --global user.name 'DhruvBisla'
-          git config --global user.email 'DhruvBisla@users.noreply.github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           rm .gitignore
           git add .
           git commit -m "[Github Actions] Upload latest build"
