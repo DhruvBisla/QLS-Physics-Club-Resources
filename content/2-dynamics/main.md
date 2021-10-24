@@ -39,6 +39,3 @@ Finally, the proportionality in this equation has the following, often useful, c
 $$\Sigma \vec{F_1} = \Sigma \vec{F_2} \Longleftrightarrow m_1\vec{a_1} = m_2\vec{a_2} \Longleftrightarrow \frac{m_2}{m_1} = \frac{\vec{a_1}}{\vec{a_2}}$$
 
 ## Newton's Third Law
-
-
-aaaa
