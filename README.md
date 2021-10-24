@@ -1,3 +1,9 @@
+<p align="left">
+    <a href="https://github.com/DhruvBisla/QLS-Physics-Club-Resources/actions">
+        <img src="https://github.com/DhruvBisla/QLS-Physics-Club-Resources/workflows/Build/badge.svg" alt="Build Status">
+    </a>
+</p>
+
 # QLS-Physics-Club-Resources
 
 ## Description
