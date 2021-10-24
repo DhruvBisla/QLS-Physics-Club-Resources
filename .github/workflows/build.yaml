@@ -12,7 +12,7 @@ jobs:
       - name: Install Pandoc
         run: make install-ubuntu
       - name: Build with Pandoc
-        run: make build-all
+        run: make
       - name: Upload PDF
         uses: actions/upload-artifact@v2
         with:
