@@ -89,3 +89,17 @@ For translational motion, friction comes in two types, static friction and kinet
 $$F_{f_s} \leq \mu_s F_N$$
 
 $$F_{f_k} = \mu_k F_N$$
+
+# Problems
+
+1. A $\SI{75}{\kg}$ person stands on on a scale in an elevator. When the elevator begins to rise, the scale reads 100 kg. What was the acceleration of the elevator/person/scale system in factors of g?
+
+2. A $\SI{75}{\kg}$ person stands on on a scale in an elevator. When the elevator begins to descend with an acceleration of $\SI{5}{\mpss} towards the ground floor, what will be the reading on the scale?
+
+3. $\SI{2}{\kg}$ and $\SI{20}{\kg}$ masses are hung on opposite sides of a frictionless pulley using a massless rope. What is the acceleration of the system?
+
+4. Two masses, $m_1$ and $m_2$ are connected via a massless rope with a frictionless pulley between them. $m_1$ is on an inclined plane with angle $\theta$ while $m_2$ hangs in the air. Determine the acceleration of the system a) when there is $m_1$ experiences no friction and b) when frictional forces exist between $m_1$ and the inclined plane, with a coefficient of $\mu$.
+
+5. [Halliday and Resnick] A block slides down an inclined plane of slope angle $\varphi$ with constant velocity. It is then projected up the same plane with an initial speed $v_0$. a) How far up the incline will it move before coming to rest? b) Will it slide down again?
+
+6. [Giancoli] A small block of mass $m$ rests on the sloping side of a triangular block of mass $M$ which itself rests on a horizontal table. Assuming all surfaces are frictionless, determine the magnitude of the force, $\vec{F}$, that must be applied to $M$ so that $m$ remains in a fixed position relative to $M$ (that is, $m$ doesn't move on the incline).
