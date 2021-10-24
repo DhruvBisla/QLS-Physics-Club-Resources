@@ -28,7 +28,7 @@ Force is defined as a vector, as it includes information about direction and mag
 
 Or, split into (2 for 2D) scalar equations:
 
-$$\Sigma\vcompx{F} = m\vcompx{a}, \Sigma\vcompy{F} = m\vcompy{a}$$
+<!-- $$\Sigma\vcompx{F} = m\vcompx{a}, \Sigma\vcompy{F} = m\vcompy{a}$$ -->
 
 Note that this is not a relation between *a* force and an object's acceleration. Instead, it is the relationship between the *net* force, or the sum of all forces on the object, and the acceleration of that object.
 
