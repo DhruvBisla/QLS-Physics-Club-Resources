@@ -24,7 +24,7 @@ Force is defined as a vector, as it includes information about direction and mag
 
 **Equation:**
 
-$$\Sigma\vec{F} = m\vec{a} = m(\vcompx{a}\ihat + \vcompy{a}\jhat)$$
+<!-- $$\Sigma\vec{F} = m\vec{a} = m(\vcompx{a}\ihat + \vcompy{a}\jhat)$$ -->
 
 Or, split into (2 for 2D) scalar equations:
 
