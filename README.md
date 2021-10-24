@@ -6,6 +6,6 @@ This repository contains the supplemental material that is used by the Quarry La
 
 ## Navigating the Repository
 
-Built documents can be found in the [build directory](https://github.com/DhruvBisla/QLS-Physics-Club-Resources/tree/main/build).
+Built documents can be found in the [build directory](build/).
 
-Source files can be found in the [content directory](https://github.com/DhruvBisla/QLS-Physics-Club-Resources/tree/main/content).
+Source files can be found in the [content directory](content/).

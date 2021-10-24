@@ -28,7 +28,7 @@ $$\Sigma\vec{F} = m\vec{a} = m(\vcompx{a}\ihat + \vcompy{a}\jhat)$$
 
 Or, split into (2 for 2D) scalar equations:
 
-$$\Sigma\vcompx{F} = m\vcompx{a}, \vcompy{F} = m\vcompy{a}$$
+$$\Sigma\vcompx{F} = m\vcompx{a}, \Sigma\vcompy{F} = m\vcompy{a}$$
 
 Note that this is not a relation between *a* force and an object's acceleration. Instead, it is the relationship between the *net* force, or the sum of all forces on the object, and the acceleration of that object.
 
@@ -39,3 +39,6 @@ Finally, the proportionality in this equation has the following, often useful, c
 $$\Sigma\vec{F_1} = \Sigma\vec{F_2} \Longleftrightarrow m_1\vec{a_1} = m_2\vec{a_2} \Longleftrightarrow \frac{m_2}{m_1} = \frac{\vec{a_1}}{\vec{a_2}}$$
 
 ## Newton's Third Law
+
+
+aaaa
