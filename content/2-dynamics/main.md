@@ -94,7 +94,7 @@ $$F_{f_k} = \mu_k F_N$$
 
 1. A $\SI{75}{\kg}$ person stands on on a scale in an elevator. When the elevator begins to rise, the scale reads 100 kg. What was the acceleration of the elevator/person/scale system in factors of g?
 
-2. A $\SI{75}{\kg}$ person stands on on a scale in an elevator. When the elevator begins to descend with an acceleration of $\SI{5}{\mpss} towards the ground floor, what will be the reading on the scale?
+2. A $\SI{75}{\kg}$ person stands on on a scale in an elevator. When the elevator begins to descend with an acceleration of $\SI{5}{\mpss}$ towards the ground floor, what will be the reading on the scale?
 
 3. $\SI{2}{\kg}$ and $\SI{20}{\kg}$ masses are hung on opposite sides of a frictionless pulley using a massless rope. What is the acceleration of the system?
 
