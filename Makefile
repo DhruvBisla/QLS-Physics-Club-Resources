@@ -22,7 +22,7 @@ build:
 	rm content/$(NAME)/macros.md
 
 
-create-section:
+new-section:
 	cp -R content/0-shared-and-template/template content/$(NAME)
 
 install-ubuntu:
