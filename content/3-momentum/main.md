@@ -32,7 +32,9 @@ Hence, even systems comprised of many particles may be represented with a single
 
 ## Linear Momentum
 
-**Definition:** The product of mass and velocity
+**Definition:** The product of mass and velocity.
+
+**Units:** md/t $\rightarrow$ $\SI{1}{\kg\mps}$
 
 **Equation:**
 
@@ -43,3 +45,33 @@ This definition can be used to put Newton's Second Law more generally, expressin
 Using the final equation derived in the previous section, there will be no change in momentum as long as no external force acts upon a system.
 
 This allows us to say that when there is no net external force on a system, **momentum will be conserved**.
+
+## Impulse
+
+**Definition:** The change in momentum.
+
+**Units:** md/t $\rightarrow$ $\SI{1}{\kg\mps}$
+
+**Equation:** $\vec{J} = \D{\vec{p}}$
+
+Impulse is to momentum as displacement is to position.
+
+## Collisions
+
+When two particles collide, by Newton's Third Law, the force that each exerts on the other is equal in magnitude but opposite in direction. By the the definition of impulse, the impulse of particle one is equal and opposite to that of particle two, $\vec{J_1} = -\vec{J_2}$.
+
+If a system with no external forces of particle one and two is defined, then the momentum of the center of mass may be defined as:
+
+$$\vec{P} = \vec{p_1} + \vec{p_2}$$
+
+The assumption that there is no external force acting on the system means, by conservation of momentum, that:
+
+$$\D{\vec{P}} = \D{\vec{p_1}} + \D{\vec{p_2}} = 0$$
+
+This concept is generally applicable whenever the collision occurs in a small enough time interval, where it may be assumed that a large impulse is caused by a large force that renders other forces, such a gravity, negligible.
+
+# Problems
+
+1. A $\SI{50}{\kg}$ person stands at the end of a $\SI{5}{\m}$ raft with mass $\SI{20}{\kg}$. The person then walks to the other end of the raft. What is the magnitude of the displacement of the raft?
+
+2. [Giancoli] A huge balloon and its gondola, of mass $M$, are in the air and stationary with respect to the ground. A passenger of mass $m$, then climbs out and slides down a rope with speed $v$, measured with respect to the balloon. With what speed and direction (relative to Earth) does the balloon then move? What happens if the passenger stops?
