@@ -8,7 +8,7 @@
 
 **Units:** rad (unitless) $\rightarrow$ $\SI{1}{\radian}$
 
-Using the definition given, one full revolution is defined as $\SI{2 \pi}{\rad}$. This is because the circumference of a circle is $2\pi r$, for a radius, $r$. With cancellation of $r$, the quotient $\frac{l}{r}$ defining the angle in radians is independent of the radius of the arc subtended, making it a valid angle measure.
+Using the definition given, one full revolution is defined as $\SI{{2 \pi}}{\rad}$. This is because the circumference of a circle is $2\pi r$, for a radius, $r$. With cancellation of $r$, the quotient $\frac{l}{r}$ defining the angle in radians is independent of the radius of the arc subtended, making it a valid angle measure.
 
 ### Angular Velocity
 

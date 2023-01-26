@@ -5,7 +5,7 @@ date: \today
 header-includes:
   - \usepackage{siunitx, caption, graphicx, float, amsmath, amssymb, pifont, microtype}
   - \usepackage[margin=1.375in]{geometry}
-  - \sisetup{per-mode = symbol, bracket-unit-denominator = false}
+  - \sisetup{per-mode = symbol, bracket-unit-denominator = false, parse-numbers = false}
   - \DeclareSIUnit[number-unit-product = {\thinspace}]{\inch}{in}
   - \DeclareSIUnit[number-unit-product = {\thinspace}]{\foot}{ft}
   - \DeclareSIUnit{\rad}{\radian}
